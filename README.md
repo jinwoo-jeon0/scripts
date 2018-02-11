@@ -2,16 +2,19 @@
 useful scripts
 
 # Mac
-Clone
+Clone.
 
 ```
 cd ~
-git clone https://github.com/jinwoo-jeon0/scripts.git scripts
+git clone https://github.com/jinwoo-jeon0/scripts.git (cloned-directory)
 ```
+Add the cloned directory to $PATH.
+
+Open a file.
 ```
-sudo vi /etc/path.d/scripts
+sudo vi /etc/path.d/$(any-name)
 ```
-Add the cloned directory to $PATH
+Add the cloned directory to the file.
 ```
-~/scripts
+(cloned-directory)/scripts
 ```
