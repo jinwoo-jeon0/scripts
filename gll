@@ -1,2 +1,2 @@
 baseDir=$(cd "$(dirname "$0")" && pwd)
-$baseDir/git-log-remote $*
+$baseDir/git-log $*
