@@ -1,1 +1,1 @@
-git log --branches --decorate --oneline --graph --remotes $*
+git-log --remotes $*
