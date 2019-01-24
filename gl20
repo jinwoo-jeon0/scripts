@@ -1,2 +1,0 @@
-baseDir=$(cd "$(dirname "$0")" && pwd)
-$baseDir/git-log-20 $*
