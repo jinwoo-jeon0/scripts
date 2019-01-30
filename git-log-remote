@@ -1,1 +1,1 @@
-git-log --remotes $*
+git-log --remotes --branches $*
