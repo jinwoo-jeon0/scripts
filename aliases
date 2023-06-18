@@ -1,1 +1,2 @@
 alias clear-repo="git remote prune origin && git branch --merged | grep -v '\(\*\|^ *master\).*' | xargs git branch --delete"
+alias update-omz-custom-plugins='for plugin in $ZSH/custom/plugins/*/; do if [ -d "$plugin/.git" ]; then; printf "\n\n${YELLOW}%s${RESET}\n" "${plugin%/}"; git -C "$plugin" pull; fi; done'
