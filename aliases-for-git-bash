@@ -1,5 +1,6 @@
 alias git-log='git log --decorate --oneline --graph'
 alias glog='git-log'
+alias gloga='glog --all'
 alias git-log-remote='git-log --remotes --branches'
 alias glr='git-log-remote'
 alias git-log-remote-20='git-log-remote --max-count=20'
