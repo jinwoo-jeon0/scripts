@@ -1,0 +1,13 @@
+alias git-log='git log --decorate --oneline --graph'
+alias gll='git-log'
+alias git-log-remote='git-log --remotes --branches'
+alias glr='git-log-remote'
+alias git-log-remote-20='git-log-remote --max-count=20'
+alias glr20='git-log-remote-20'
+alias git-log-remote-40='git-log-remote --max-count=40'
+alias glr40='git-log-remote-40'
+alias git-log-remote-today='git-log-remote --since=yesterday'
+alias glrt='git-log-remote-today'
+
+alias gcv='git commit --verbose'
+alias gcva='gcv --all'
