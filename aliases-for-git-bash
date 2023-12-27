@@ -11,4 +11,4 @@ alias git-log-remote-today='git-log-remote --since=yesterday'
 alias glrt='git-log-remote-today'
 
 alias gc='git commit --verbose'
-alias gcva='gc --all'
+alias gca='gc --all'
