@@ -23,5 +23,6 @@ Add the cloned directory to the file.
 
 ```sh
 # ~/.bashrc
+source ${cloned_path}/aliases
 source ${cloned_path}/aliases-for-git-bash
 ```
