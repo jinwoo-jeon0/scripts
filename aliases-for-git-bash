@@ -1,3 +1,5 @@
+source ./aliases
+
 alias git-log='git log --decorate --oneline --graph'
 alias glog='git-log'
 alias gloga='glog --all'
