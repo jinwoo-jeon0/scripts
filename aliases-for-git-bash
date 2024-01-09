@@ -12,3 +12,17 @@ alias glrt='git-log-remote-today'
 
 alias gc='git commit --verbose'
 alias gca='gc --all'
+alias 'gca!'='gca --amend'
+
+alias gd='git diff'
+alias gds='gd --staged'
+alias gdca='gd --cached'
+
+alias gst='git status'
+
+alias ga='git add'
+alias gaa='ga --all'
+
+alias gp='git push'
+alias gpf='gp --force-with-lease --force-if-includes'
+alias 'gpf!'='gp --force'
