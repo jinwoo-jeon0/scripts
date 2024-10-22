@@ -10,6 +10,13 @@ alias glr40='git-log-remote-40'
 alias git-log-remote-today='git-log-remote --since=yesterday'
 alias glrt='git-log-remote-today'
 
+alias gco='git checkout'
+alias gcB='gco -B'
+alias gcb='gco -b'
+alias gcd='gco $(git_develop_branch)'
+alias gcm='gco $(git_main_branch)'
+alias gcor='gco --recurse-submodules'
+
 alias gc='git commit --verbose'
 alias gca='gc --all'
 alias 'gca!'='gca --amend'
