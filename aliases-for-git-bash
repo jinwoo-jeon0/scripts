@@ -17,6 +17,10 @@ alias gcd='gco $(git_develop_branch)'
 alias gcm='gco $(git_main_branch)'
 alias gcor='gco --recurse-submodules'
 
+alias gcp='git cherry-pick'
+alias gcpa='git cherry-pick --abort'
+alias gcpc='git cherry-pick --continue'
+
 alias gc='git commit --verbose'
 alias gca='gc --all'
 alias 'gca!'='gca --amend'
