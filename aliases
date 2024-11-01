@@ -1,4 +1,4 @@
 alias clear-repo="git remote prune origin && git branch --merged | grep -v '\(\*\|^ *master\).*' | xargs git branch --delete"
-alias update-repo="git fetch && git checkout origin/HEAD -m && clear-repo"
+alias update-repo='git fetch && git checkout origin/HEAD -m && clear-repo'
 
-alias grbmb="git rebase --interactive --autostash $(git merge-base origin/HEAD HEAD)"
+alias grbmb='git rebase --interactive --autostash $(git merge-base origin/HEAD HEAD)'
