@@ -10,6 +10,13 @@ alias glr40='git-log-remote-40'
 alias git-log-remote-today='git-log-remote --since=yesterday'
 alias glrt='git-log-remote-today'
 
+alias ga='git add'
+alias gaa='ga --all'
+alias gapa='ga --patch'
+alias gau='ga --update'
+alias gav='ga --verbose'
+alias gwip='ga -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign --message "--wip-- [skip ci]"'
+
 alias gco='git checkout'
 alias gcB='gco -B'
 alias gcb='gco -b'
@@ -40,9 +47,6 @@ alias gmtlvim='git mergetool --no-prompt --tool=vimdiff'
 alias gmum='gm upstream/$(git_main_branch)'
 
 alias gst='git status'
-
-alias ga='git add'
-alias gaa='ga --all'
 
 alias gp='git push'
 alias gpf='gp --force-with-lease --force-if-includes'
