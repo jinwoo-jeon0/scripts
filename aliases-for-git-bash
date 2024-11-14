@@ -29,6 +29,16 @@ alias gd='git diff'
 alias gds='gd --staged'
 alias gdca='gd --cached'
 
+gm='git merge'
+gma='gm --abort'
+gmc='gm --continue'
+gmff='gm --ff-only'
+gmom='gm origin/$(git_main_branch)'
+gms='gm --squash'
+gmtl='git mergetool --no-prompt'
+gmtlvim='git mergetool --no-prompt --tool=vimdiff'
+gmum='gm upstream/$(git_main_branch)'
+
 alias gst='git status'
 
 alias ga='git add'
